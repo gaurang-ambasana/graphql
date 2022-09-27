@@ -3,7 +3,7 @@ import { buildSchema } from "graphql";
 const schema = buildSchema(`
    type Course {
       id: ID
-      CourseName: String
+      courseName: String
       category: String
       price: Int
       language: String
