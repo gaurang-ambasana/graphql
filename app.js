@@ -1,6 +1,6 @@
 import express from "express";
-import schema from "./schema.js";
-import resolvers from "./resolver.js";
+import schema from "./utils/schema.js";
+import resolvers from "./utils/resolver.js";
 import { graphqlHTTP as expressGraphQL } from "express-graphql";
 
 const PORT = process.env.PORT || 3000;
