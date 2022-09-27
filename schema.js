@@ -32,7 +32,7 @@ const schema = buildSchema(`
 
    input CourseInput {
       id: ID
-      CourseName: String!
+      courseName: String!
       category: String
       price: Int!
       language: String
