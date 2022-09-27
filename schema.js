@@ -48,8 +48,7 @@ const schema = buildSchema(`
    }
 
    type Mutation {
-      createCourse(input: CourseInput): Course 
-      addTeachingAssist(input: TeachingAssistInput): TeachingAssist
+      createCourse(input: CourseInput): Course
    }
 `);
 
